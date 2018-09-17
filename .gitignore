@@ -230,6 +230,7 @@ ModulBank/BackEnd/WebAPI/App_Data/WebAPI.xml
 /BackEnd/SyncTest/AppSettings.config
 /BackEnd/WebAPILanding/App_Data/WebAPILanding.XML
 
+
 **/Properties/launchSettings.json
 /BackEnd/.sonarqube
 /patch5.diff
