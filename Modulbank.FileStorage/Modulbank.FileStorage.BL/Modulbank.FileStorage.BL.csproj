@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Files\Mappers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Core" Version="3.3.25.1" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.23" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modulbank.FileStorage.BL.Contracts\Modulbank.FileStorage.BL.Contracts.csproj" />
+    <ProjectReference Include="..\Modulbank.FileStorage.Dto\Modulbank.FileStorage.Dto.csproj" />
+    <ProjectReference Include="..\Modulbank.FileStorage.StorageServices.Contracts\Modulbank.FileStorage.StorageServices.Contracts.csproj" />
+    <ProjectReference Include="..\Modulbank.FileStorage.StorageServices2\Modulbank.FileStorage.StorageServices.csproj" />
+  </ItemGroup>
+
+</Project>
